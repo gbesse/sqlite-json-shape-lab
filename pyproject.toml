@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqlite-json-shape-lab"
+version = "0.1.0a1"
+description = "FR: Révéler les écarts entre JSON absent nul et scalaire | EN: Expose missing null and scalar JSON differences | ES: Revelar diferencias JSON ausente nulo y escalar"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+sqlite-json-shape-lab = "sqlite_json_shape_lab.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sqlite_json_shape_lab*"]

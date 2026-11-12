@@ -1,0 +1,26 @@
+{
+  "rows": [
+    {
+      "id": "missing",
+      "doc": {}
+    },
+    {
+      "id": "null",
+      "doc": {
+        "x": null
+      }
+    },
+    {
+      "id": "string",
+      "doc": {
+        "x": "null"
+      }
+    },
+    {
+      "id": "bool",
+      "doc": {
+        "x": true
+      }
+    }
+  ]
+}
